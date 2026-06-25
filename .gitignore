@@ -1,38 +1,41 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# Folder config file
-Desktop.ini
+# Virtual environments
+.venv/
+venv/
+env/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# uv
+.uv/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Jupyter
+.ipynb_checkpoints/
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
+# Logs
 *.log
+
+# Models / blobs (large binary assets — download separately)
+*.blob
+*.bin
+*.pt
+*.onnx
+
+# Vosk models
+vosk-model*/
+
+# Secrets / config with credentials
+config.local.yaml
+.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
